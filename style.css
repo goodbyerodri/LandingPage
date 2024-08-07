@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* border: red 2px solid; */
+    min-height: 100vh;
+    background-image: url("http://cdn.mcauto-images-production.sendgrid.net/0ce2e42a52bb53e7/219f7b38-e74f-4689-85e8-8898c08a7c2c/1920x1080.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:   "Lato", sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.headwrap {
+
+    /* border: green 2px solid; */
+    padding: 0.2rem;
+}
+
+.logo {
+
+    /* border: cyan 2px solid; */
+    padding: 0.2rem;
+
+
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+
+.navwrap {
+
+    /* border: white 2px solid; */
+    width: 100%;
+    padding: 0.2rem;
+ 
+    
+
+
+}
+
+.navlist {
+
+    /* border: pink 2px solid; */
+    padding:0.2rem;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+
+.navlist li {
+
+    /* border: red 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    width: 100%;
+
+    
+    
+
+}
+
+.navlist a {
+
+    /* border: yellow 2px solid; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 4rem;
+    text-align: center;
+    
+
+}
+
+.navlist a:hover {
+    background-color: white;
+}
+
+/* Final Header */
+
+/* Inicio Main */
+
+.mainwrap {
+
+    min-height: 100vh;
+    /* border: white 2px solid;  */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 2rem;
+    box-shadow: 2px 2px 25px 2px rgba(255, 255, 255, 0.8);
+
+}
+
+.mainwrap a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainwrap p {
+    color: orangered;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mainwrap img {
+    width: 100%;
+
+}
+
+
+
+
+/* Fin del Main */
+
+/* Inicio Footer */
+
+.footwrap {
+
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: yellow 2px solid;
+    padding: 0.2rem; */
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+ 
+}
+
+
+.footwrap a {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footwrap img {
+    width: 50%;
+}
+
+
+/* Fin Footer */
+
+
+@media screen and (min-width: 600px) {
+
+    .headwrap {
+
+        display: flex;
+    }
+
+    .navlist {
+
+        display: flex;
+        
+    }
+
+    .mainwrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainwrap p {
+        font-size: 3rem;
+    }
+
+    .mainwrap img {
+        width: 40%;
+    }
+
+    .footwrap {
+
+    }
+
+    .footwrap img {
+        width: 50%;
+    }
+
+}
